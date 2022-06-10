@@ -1,4 +1,11 @@
-
+.footer2 > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+     padding-right:0px;
+     padding-left:0px;
+    margin-top: var(--bs-gutter-y);
+}
 
 
  .img1{ 
@@ -305,11 +312,11 @@ i{
     color: beige;
     font-size: 1vw;
    }
-   /* .footer2 img{
+   .footer2 img{
     margin:0!important;
     padding:0!important;
     border:0!important;
-   } */
+   }
 .footer3 i{
     color: white;
     font-size: 1.5vw;
@@ -319,11 +326,11 @@ i{
  }
   
   
-   
+/*    
    .footer{
     margin: 0!important;
     padding: 0!important;
-    border: 0!important;
+    border: 0!important; */
    }
    .row{
     padding: 0;
